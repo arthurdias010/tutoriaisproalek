@@ -18,7 +18,7 @@ Ai fica bom tanto pra você sempre voltar e sempre ter tutoriais aqui, como tamb
 # Código do JavaScript
 
 ## Parte do bloco dos cursos
-Primeiramente, o que precisamos entender é a nossa `Div` que contem os cursos que vamos clicar pra aparecer a mensagem
+Primeiramente, o que precisamos entender é a nossa `div` que contem os cursos que vamos clicar pra aparecer a mensagem
 ```
 <div class="curso-item">
   <div class="curso-box">
@@ -126,5 +126,38 @@ texto.innerText = cursosInfo[nomeCurso];
 ```
 ... ele alterar o texto para o CursosInfo (que caso você não se lembre, é a constante que a gente colocou as descrições dos cursos lá em cima)
 
+---
+
+Agora, a parte da caixa em si que vai mostrar a mensagem
+```
+area.style.display = "block";
+``` 
+Esse código aqui basicamente fazer a caixa aparecer, porque o CSS da caixa está com o `display: none;`, ou seja, desligado, sumido, desaparecido JUUUUSTAMENTE pra caixa não aparecer enquanto você não clicar em nenhum curso, porque pensa bem, imagina só vc abre o site e ja tem logo uma caixa explicando sobre um curso que você nem clicou?
+
+---
+## Ta bom, mas e o html da caixa?
+Taaa aqui meu amorzinho
+```
+<div id="area-descricao" class="area-descricao">
+  <h2 id="titulo-curso"></h2>
+  <p id="texto-curso"></p>
+</div>
+```
+
+E agora o css dele:
+```
+.area-descricao {
+    display: none; /*Faz ele ficar invisivel até ser clicado*/
+    width: 80%; /*Tamanho dele*/
+    margin: 20px auto 40px auto; /*Margem*/
+    padding: 30px; /*É basicamente um outro tipo de "margem"*/
+    background-color: #B20000; /*Cor de fundo*/
+    color: #f8f8f8; /*Cor do texto*/
+    border-radius: 30px; /*Caixa em formato mais arredondado nos cantos*/
+    box-shadow: 0px 4px 20px 0px rgba(0,0,0,0.25); /*Sombra na caixa*/
+}
+```
+---
+Alguma dúvida, mandar msg no meu whatsapp e reze pra que eu saiba responder :p
 
 
