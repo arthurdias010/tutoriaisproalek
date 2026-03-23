@@ -1,16 +1,12 @@
 # BEM VINDO AO MEU INCRIVEL REPOSITORIO EM QUE EU VOU FAZER VARIOS TUTORIAIS PRO MEU AMIGO QUERIDO ALEX 🥳 ✨
 
----
-
 ## Qual o meu objetivo em fazer isso aqui? 🤔
-A real é que fazendo meus tutoriais pra você no github eu literalmente já te ajudo em duas coisas IMPORTANTISSIMAS.
-1 - Vou te ajudar com os códigos e etc 😙
+A real é que fazendo meus tutoriais pra você no github eu literalmente já te ajudo em duas coisas IMPORTANTISSIMAS.<br>
+1 - Vou te ajudar com os códigos e etc 😙<br>
 2 - vou te ajudar a entender como funciona e mexe no github, **ainda mais depois da humilhação do ronildo hoje** 😭
 
----
-
 ## Mas como o grandissimo amigo arthur pretende fazer isso? 🤔
-Acho que primeiramente vou deixar esse readme gigante aqui pra vc só entender como funciona o código de javascript que você pediu mesmo, e mais pra frente, quando você precisar de mais tutoriais e mais ajudas nessa área eu posso ir transformando isso em algo cada vez maior
+Acho que primeiramente vou deixar esse readme gigante aqui pra vc só entender como funciona o código de javascript que você pediu mesmo, e mais pra frente, quando você precisar de mais tutoriais e mais ajudas nessa área eu posso ir transformando isso em algo cada vez maior<br>
 Ai fica bom tanto pra você sempre voltar e sempre ter tutoriais aqui, como também um acervo pessoal meu, então é basicamente jogo ganho pra nós dois 🤑
 
 ---
@@ -28,8 +24,6 @@ Primeiramente, o que precisamos entender é a nossa `div` que contem os cursos q
 </div>
 ```
 O que temos aqui de importante é o parágrafo `<p>` que coloca o nome do curso em baixo da imagem, CAAASO você tenha prestado bem atenção, você pode perceber que a classe que a gente colocou nesse parágrafo foi "curso-nome", e presta atenção nisso porque isso vai ser BEEEEM importante mais pra frente 👍
-
----
 
 ## Parte do código em si do javascript
 
@@ -56,8 +50,6 @@ O mais importante que você precisa saber é, o código de javascript sempre vai
 </body>
 </html>
 ```
-
----
 
 Agora, o que precisamos fazer é **entender** o meu código de JavaScript pra mostrar a mensagem dos cursos
 ```
