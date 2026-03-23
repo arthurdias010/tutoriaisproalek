@@ -109,17 +109,22 @@ Proxima parte do código, essa daqui:
 ```
 itens.forEach(item => {
 ```
-Esse código aqui basicamente faz que pra cada curso da página...
+esse código dai de cima basicamente faz que pra cada curso da página...
 ```
 item.addEventListener("click", () => {
 ```
-Vai acontecer algo quando você clicar nele
+Vai acontecer algo quando você clicar nele, como visto nesse código aqui de cima, ou seja a estrutura ficou basicamente assim pra essas duas ações:
+```
+itens.forEach(item => {
+  item.addEventListener("click", () => {}
+}
+```
 
 Agora, a parte mais importante do código, essa linha aqui ó
 ```
 const nomeCurso = item.querySelector(".curso-nome").innerText;
 ```
-ela vai pegar ESPECIFICADAMENTE o nome do curso que a gente colocou, pra então, com esse código aqui...
+essa linha de cima vai pegar ESPECIFICADAMENTE o nome do curso que a gente colocou, pra então, com esse código aqui de baixo...
 ```
 titulo.innerText = nomeCurso;
 texto.innerText = cursosInfo[nomeCurso];
